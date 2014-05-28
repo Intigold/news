@@ -1,6 +1,7 @@
 title:            Intigold Mines Ltd.
 description:      "News Releases"
 logo:             IntigoldLogo.png
+favicon:          favicon.ico
 disqus_shortname: leighakin
 # Assign a default image for your site's header and footer
 default_bg:       default_bg.jpg
@@ -19,10 +20,10 @@ url:              http://intigold.github.io/Intigold.github.io-news
 owner:
   name:           Intigold
   avatar:         perustatue.jpg
-  email:          leigh.akin@ttagit.com
+  email:          intigold.ltd@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    INTIGOLD MINES LTD. is a Canadian junior mining company trading on the TSX Venture Exchange under the symbol “IGD”. The Company has a proven management team and extensive connections to projects and financing. Intigold is focused on maximizing shareholder value through identifying and developing early stage gold and silver deposits.
-  # To register at HMFAYSAL SOCIAL, visit http://social.hmfaysal.tk
+
   twitter:        Intigold
   facebook:       intigold
   github:         Intigold
@@ -47,14 +48,14 @@ links:
     url: /
     external: false
     icon: home
-  - title: <i class="icon-book"></i> Documentation
-    url: /documentation
+  - title: <i class="icon-book"></i> 
+    url: 
   - title: Categories
     url: /categories
   - title: Tags
     url: /tags
-  - title: Leigh who?
-    url: /hossain-mohd-faysal
+  - title: 
+    url: 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
