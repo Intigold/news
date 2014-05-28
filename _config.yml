@@ -39,7 +39,18 @@ owner:
 google_analytics:   UA-51395459-1
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify: 
+
+# Define Navigation
+navigation:
+ - title: Home
+   url: http://intigold.github.io/index.html
+ - title: Projects
+   url: /projects.html
+ - title: About
+   url: /about.html
+ - title: Contact
+   url: /contact.html        
    
 # Links to include in footer navigation
 # For external links add external: true
