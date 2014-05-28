@@ -3,19 +3,6 @@
 <head>
 {% include head.html %}
 </head>
-<nav>
-    <ul>
-    {% for link in site.navigation %}
-        {% assign current = nil %}
-        {% if page.url contains link.url %}
-            {% assign current = 'current' %}
-        {% endif %}
-        <li class="element {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
-            <a href="{{ link.url }}">{{ link.title }}</a>
-        </li>
-    {% endfor %}
-    </ul>
-</nav>
 <body class="home-template" itemscope itemtype="http://schema.org/WebPage">
 {% if page.image.feature %}<header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom"  style="background-image: url({{ site.url }}/images/{{ page.image.feature }})" itemscope itemtype="http://schema.org/Organization">
 {% else %}
@@ -23,6 +10,19 @@
 {% endif %}
 {% if site.description %}
     <div class="inner">
+		<nav>
+		    <ul>
+		    {% for link in site.navigation %}
+		        {% assign current = nil %}
+		        {% if page.url contains link.url %}
+		            {% assign current = 'current' %}
+		        {% endif %}
+		        <li class="element {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
+		            <a href="{{ link.url }}">{{ link.title }}</a>
+		        </li>
+		    {% endfor %}
+		    </ul>
+		</nav>
         <div class="container">
             <a class="brand light" href="{{ site.url }}" role="banner" itemprop="url">
 
