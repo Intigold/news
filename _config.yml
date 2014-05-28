@@ -41,23 +41,32 @@ google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
 
+# Define Navigation
+navigation:
+ - title: Home
+   url: http://intigold.github.io/index.html
+ - title: Projects
+   url: /projects.html
+ - title: About
+   url: /about.html
+ - title: Contact
+   url: /contact.html
+   
 # Links to include in footer navigation
 # For external links add external: true
 links:
   - title: Home
-    url: http://intigold.github.io
+    url: /
     external: false
     icon: home
-  - title: <i class="icon-book"></i> TTAGIT
-    url: https://ttagit.com
+  - title: 
+    url: 
   - title: Categories
     url: /categories
   - title: Tags
     url: /tags
-  - title: Phatpen
-    url: http://phatpen.com
-  - title: de2our
-    url: http://de2our.com
+  - title: 
+    url: 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Canada/Vancouver
