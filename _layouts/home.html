@@ -10,21 +10,21 @@
 {% endif %}
 {% if site.description %}
     <div class="inner">
-		<nav>
-		    <ul>
-		    {% for link in site.navigation %}
-		        {% assign current = nil %}
-		        {% if page.url contains link.url %}
-		            {% assign current = 'current' %}
-		        {% endif %}
-		        <li class="element {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
-		            <a href="{{ link.url }}">{{ link.title }}</a>
-		        </li>
-		    {% endfor %}
-		    </ul>
-		</nav>
         <div class="container">
             <a class="brand light" href="{{ site.url }}" role="banner" itemprop="url">
+				<nav>
+				    <ul>
+				    {% for link in site.navigation %}
+				        {% assign current = nil %}
+				        {% if page.url contains link.url %}
+				            {% assign current = 'current' %}
+				        {% endif %}
+				        <li class="element {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
+				            <a href="{{ link.url }}">{{ link.title }}</a>
+				        </li>
+				    {% endfor %}
+				    </ul>
+				</nav>
 
                 {% if site.logo %}<img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />{% endif %}
 
