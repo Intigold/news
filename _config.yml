@@ -45,12 +45,12 @@ bing_verify:
 navigation:
  - title: Home
    url: http://intigold.github.io/index.html
- - title: Projects
-   url: /projects.html
- - title: About
-   url: /about.html
+ - title: News
+   url: http://intigold.github.io/Intigold.github.io-news/
+ - title: Corporate
+   url: http://intigold.github.io/corporate
  - title: Contact
-   url: /contact.html        
+   url: http://intigold.github.io/#contact        
    
 # Links to include in footer navigation
 # For external links add external: true
