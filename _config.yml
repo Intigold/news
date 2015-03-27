@@ -14,7 +14,7 @@ animated_fins:	  true
 # Specify the fin color in RGB value
 fin_color:        "255,255,255"
 # Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://intigold.github.io/Intigold.github.io-news
+url:              http://intigold.github.io/news
 
 # Owner/author information
 owner:
@@ -46,7 +46,7 @@ navigation:
  - title: Home
    url: http://intigold.github.io/index.html
  - title: News
-   url: http://intigold.github.io/Intigold.github.io-news/
+   url: http://intigold.github.io/news
  - title: Corporate
    url: http://intigold.github.io/corporate
  - title: Contact
